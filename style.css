@@ -1,0 +1,17 @@
+body {
+    background-color: darkkhaki;
+    background-image: url('images/awan.webp');
+    background-attachment: fixed;
+}
+
+div {
+    background-color: darkorange;
+    width: 1000px;
+    height: 1500px;
+    background-image: url('images/bunga.jpg');
+    background-repeat: no-repeat;
+    /* background-position: right top; */
+    background-position-x: 50px;
+    background-position-y: 50px;
+}
+
