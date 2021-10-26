@@ -1,0 +1,57 @@
+td {
+    width: 100px;
+    height: 100px;
+}
+
+table {
+    background-color: darkred;
+}
+
+tr:first-child {
+    background-color: darksalmon;
+}
+
+td:nth-child(3) {
+    background-color: darkviolet;
+}
+
+.tulisan {
+    color: white;
+    font-size: 24px;
+    border: 2px yellow solid;
+    text-align: center;
+    border-radius: 0 0 20px 50px;
+}
+
+.kotakbiasa {
+    width: 400px;
+    height: 10px;
+    background-color: brown;
+}
+
+/* kotak luar */
+
+#a {
+    width: 300px;
+    height: 200px;
+    background-color: yellowgreen;
+    margin: -50px;
+    border-radius: 20px;
+    border-bottom: 5px blue solid;
+}
+
+/* kotak dalam */
+
+#b {
+    width: 150px;
+    height: 150px;
+    background-color: blueviolet;
+    margin: 20px;
+    padding-left: 50px;
+    padding-top: 20px;
+    border: dashed 2px white;
+}
+
+h1 {
+    color: white;
+}
